@@ -38,7 +38,7 @@ export function LoginPage() {
 
   return (
     <div className={"mx-auto max-w-xs space-y-4 p-4 pt-40"}>
-      <h1 className="font-bold">{"LOGIN"}</h1>
+      <h1 className="font-bold">{"MAP"}</h1>
       <form
         className="space-y-2"
         onSubmit={(event) => {
