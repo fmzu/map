@@ -1,0 +1,23 @@
+{
+  "name": "map",
+  "type": "module",
+  "scripts": {
+    "format": "biome check . --fix --unsafe"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.1",
+    "@types/bun": "latest",
+    "wrangler": "3.57.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": ["*"],
+  "dependencies": {
+    "@hono/auth-js": "^1.0.10",
+    "@hono/valibot-validator": "^0.3.1",
+    "@hono/zod-validator": "^0.3.0",
+    "hono": "^4.6.3",
+    "valibot": "^0.42.1"
+  }
+}
